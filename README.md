@@ -65,6 +65,31 @@ This project predicts a car's fuel efficiency based on various vehicle attribute
 - **Data Splitting**: Partition the dataset into training and testing sets (80/20 split).
 - **Model Building**: Train a multiple linear regression model using the selected features.
 - **Evaluation**: Use the R² score and residual plots (histogram and scatter) to evaluate model performance and validate assumptions.
+## How to Run the Project
+- Open the Jupyter Notebook (`ML_Project.ipynb`) using your preferred environment (Jupyter Notebook, JupyterLab, or Google Colab).
+- Execute the notebook cells sequentially to perform data cleaning, feature engineering, model training, and evaluation.
+- Review the outputs and visualizations to understand the performance of the regression model.
+
+## Results
+- **Initial Model:** A regression model built on all features achieved an R² score of approximately 0.9783.
+- **Final Model:** After feature selection and PCA, the refined model achieved an R² score of approximately 0.9732.
+- **Residual Analysis:** Residual plots confirm that the errors are normally distributed around zero, supporting the linearity assumption.
+
+## Future Work
+- Experiment with alternative regression techniques (e.g., Ridge, Lasso) and ensemble methods.
+- Enhance feature engineering with additional data transformation methods.
+- Implement cross-validation for more robust model evaluation.
+
+## Contributing
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. For major changes, open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+- Thanks to the open-source community for the excellent libraries and tools that made this project possible.
+- Special thanks to the data providers and documentation that have helped in understanding and executing the project pipeline.
+
 
 ## Installation and Setup
 
