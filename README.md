@@ -13,13 +13,13 @@ Fuel-Efficiency-Prediction is a comprehensive machine learning project that pred
   - [Feature Selection](#feature-selection)
   - [Handling Multicollinearity](#handling-multicollinearity)
   - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Installation and Setup](#installation-and-setup)
 - [How to Run the Project](#how-to-run-the-project)
 - [Results](#results)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+-  [Installation and Setup](#installation-and-setup)
 
 ## Project Overview
 This project predicts a car's fuel efficiency based on various vehicle attributes. It demonstrates a full machine learning pipeline, including:
